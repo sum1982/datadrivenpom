@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ascension Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Ascension-amita Test Cases(failed)">
+    <classes>
+      <class name="com.amita.qa.Test.CareerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="CareerPageTest"/>
+        </methods>
+      </class> <!-- com.amita.qa.Test.CareerTest -->
+      <class name="com.amita.qa.Test.PriceTransparencyTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="PriceTransparencyPageTest"/>
+        </methods>
+      </class> <!-- com.amita.qa.Test.PriceTransparencyTest -->
+      <class name="com.amita.qa.Test.BillPayTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="BillPayPageTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amita.qa.Test.BillPayTest -->
+    </classes>
+  </test> <!-- Ascension-amita Test Cases(failed) -->
+</suite> <!-- Failed suite [Ascension Test Automation Test Suite] -->

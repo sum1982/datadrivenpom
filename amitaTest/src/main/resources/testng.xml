@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ascension Test Automation Test Suite">
+
+<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Ascension-amita Test Cases">
+		<classes>
+			<class name="com.amita.qa.Test.LocationTest"></class>
+			<class name="com.amita.qa.Test.BillPayTest"></class>
+			<class name="com.amita.qa.Test.SpecialtyCareTest"></class>
+			<class name="com.amita.qa.Test.DonationTest"></class>
+			<class name="com.amita.qa.Test.CareerTest"></class>
+			<class name="com.amita.qa.Test.PriceTransparencyTest"></class>
+			
+		</classes>
+	</test>
+</suite>
